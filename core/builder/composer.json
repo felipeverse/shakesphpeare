@@ -1,0 +1,9 @@
+{
+    "name": "felipeverse/shakesphpeare-builder",
+    "description": "Static site build engine for the shakesphpeare project.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    }
+}

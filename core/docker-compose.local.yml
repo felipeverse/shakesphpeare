@@ -1,0 +1,12 @@
+services:
+  builder:
+    build:
+      context: ./builder/
+      dockerfile: Dockerfile.local
+    init: true
+    volumes:
+      - ./builder:/builder
+      - ../input:/input
+      - ../output:/output
+    working_dir: /builder
+    container_name: shakesphpeare-builder
